@@ -3,7 +3,7 @@ body {
   font-size: 10px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
-  color: #464646;
+  color: #fff;
   text-align: center;
 }
 
@@ -16,18 +16,24 @@ h1 + p {
   color: #99e420;
   font-weight: 700;
   font-size: 1.5rem;
+  letter-spacing: 0.1rem;
 }
-
-h2 + p {
+.register {
   color: #99e420;
-  font-weight: 700;
   font-size: 1rem;
+  font-weight: 700;
   text-transform: uppercase;
+}
+.toast-description {
+  color: #505050;
+  font-size: 1rem;
   margin-top: 0;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 1.5rem;
+  color: #505050;
   margin: 0;
 }
 strong {
@@ -41,4 +47,5 @@ strong {
   flex-direction: column;
 }
 .main-content {
+  padding: 2em 1em;
 }
