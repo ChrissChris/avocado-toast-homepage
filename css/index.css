@@ -54,11 +54,14 @@ The media screens will be set below
 ----------------------------------
 */
 
-@media (min-width: 500px);
- {
+@media (min-width: 500px) {
   body {
     font-size: 2rem;
     display: flex;
+    margin: 0;
+  }
+  .main-content {
+    margin: 0;
   }
   h1 {
     font-size: 5rem;
