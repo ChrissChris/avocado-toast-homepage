@@ -12,12 +12,7 @@ h1 {
   font-weight: 300;
   margin: 2em;
 }
-h1 + p {
-  color: #99e420;
-  font-weight: 700;
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-}
+
 .register {
   color: #99e420;
   font-size: 1rem;
