@@ -33,6 +33,7 @@ strong {
 }
 .main-intro {
   background-image: url(../image/egg.jpg);
+  background-color: #464646;
   display: flex;
   flex-direction: column;
 }
