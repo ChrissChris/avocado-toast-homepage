@@ -36,6 +36,7 @@ strong {
 }
 .main-intro {
   background-image: url(../image/egg.jpg);
+  background-size: cover;
   background-color: #464646;
   padding: 0 0.5em 2em;
   display: flex;
