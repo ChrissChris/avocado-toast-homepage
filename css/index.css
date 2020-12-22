@@ -1,14 +1,38 @@
 body {
   margin: 0;
+  font-size: 10px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
-  color: #444444;
+  color: #464646;
   text-align: center;
 }
 
 h1 {
+  font-size: 3rem;
   font-weight: 300;
+  margin: 2em;
+}
+h1 + p {
+  color: #99e420;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h2 + p {
+  color: #99e420;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 strong {
   font-weight: 700;
+}
+.main-intro {
+  background-image: url(../image/egg.jpg);
+  display: flex;
+  flex-direction: column;
 }
