@@ -58,4 +58,7 @@ The media screens will be set below
   body {
     font-size: 2rem;
   }
+  h1 {
+    font-size: 5rem;
+  }
 }
