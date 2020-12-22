@@ -52,3 +52,7 @@ The media screens will be set below
 
 ----------------------------------
 */
+
+@media (min-width: 500px);
+ {
+}
