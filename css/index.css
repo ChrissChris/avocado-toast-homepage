@@ -13,7 +13,7 @@ body {
 h1 {
   font-size: 2rem;
   font-weight: 300;
-  margin: 1.5em;
+  margin: 0;
 }
 
 .register {
@@ -74,5 +74,10 @@ The media screens will be set below
   }
   h2 {
     font-size: 3rem;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
