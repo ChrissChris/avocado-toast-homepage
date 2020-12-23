@@ -60,8 +60,44 @@ strong {
 input,
 .btn {
   width: 100%;
-  margin: 0.5rem;
+  border-radius: 3px;
+  margin: 0.5em;
 }
+
+input {
+  text-align: inherit;
+  padding: 1em;
+  border: 1px solid #464646;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+input:focus {
+  transform: scale(1.1);
+}
+.btn {
+  display: inline-block;
+  padding: 1em 1.5em;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: linear-gradient(to left, #84b46b, #99e420);
+  color: #fff;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  transform: scale(1.1);
+}
+
 /* 
 ----------------------------------
 
