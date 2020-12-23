@@ -9,6 +9,17 @@ body {
   color: #fff;
   text-align: center;
 }
+.main-intro {
+  background-image: url(../image/egg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #464646;
+  padding: 0 0.5em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+}
 
 h1 {
   font-size: 2rem;
@@ -37,19 +48,20 @@ h2 {
 strong {
   font-weight: 700;
 }
-.main-intro {
-  background-image: url(../image/egg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-color: #464646;
-  padding: 0 0.5em 2em;
-  display: flex;
-  flex-direction: column;
-}
+
 .main-content {
   padding: 2em 1em;
 }
 
+.form-collector {
+  max-width: 80%;
+  max-width: 300px;
+}
+input,
+.btn {
+  width: 100%;
+  margin: 0.5rem;
+}
 /* 
 ----------------------------------
 
