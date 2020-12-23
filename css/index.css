@@ -23,20 +23,20 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   margin: 0;
 }
 
 .register {
   color: #99e420;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 .toast-description {
   color: #505050;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 0;
   font-weight: 700;
 }
@@ -61,6 +61,7 @@ strong {
 .form-collector {
   max-width: 80%;
   max-width: 300px;
+  padding-bottom: 3em;
 }
 input,
 .btn {
