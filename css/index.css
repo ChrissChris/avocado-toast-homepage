@@ -11,6 +11,7 @@ body {
 }
 .main-intro {
   background-image: url(../image/egg.jpg);
+  background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   background-color: #464646;
@@ -51,6 +52,10 @@ strong {
 
 .main-content {
   padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
 }
 
 .form-collector {
@@ -126,6 +131,7 @@ The media screens will be set below
   .main-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
   }
 }
